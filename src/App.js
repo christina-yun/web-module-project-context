@@ -13,6 +13,7 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
+		setCart([...cart, item]);
 	};
 
 	return (
@@ -31,4 +32,4 @@ function App() {
 	);
 }
 
-export default App;
+export default App; 
